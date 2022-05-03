@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    font-family: Open Sans;
+    height: 100vh;
+}
+
+.heading, .footer {
+    width: 100%;
+    opacity: 75%;
+    background-color: rgba(196, 196, 196, 0.75);
+    height: 70px;
+}
+
+.heading-style {
+    width: 1025px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.heading-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: rgba(58, 58, 58, 1);
+    text-decoration: none;
+    margin-top: 11px;
+}
+
+.heading-search {
+    position: relative;
+}
+
+.icon-search {
+    position: absolute;
+    top: 27px;
+    left: 7px;
+    font-size: 20px;
+}
+
+.search{
+    margin-top: 14px;
+}
+
+.placeholder {
+    padding: 12px 0 12px 41px;
+    font-size: 14px;
+    color:rgba(97, 97, 97, 1);
+    line-height: 21px;
+    width: 295px;
+    height: 45px;
+}
+
+.advertacing-boxes {
+    width: 1025px;
+    margin: 38px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.advertacing-box {
+    width: 294px;
+    height: 446px;
+    position: relative;
+    margin-bottom: 48px;
+    margin-right: 70px;
+}
+
+.adverticing-image {
+    width: 294px;
+    height: 301px;
+}
+
+.image-hover {
+    width: 294px;
+    height: 301px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image-hover:hover {
+    width: 294px;
+    height: 301px;
+    position: absolute;
+    background-image: url(../img/image_3_1.png);
+    top: 0;
+    left: 0;
+}
+
+.advertacing-box:nth-last-child(3n) {
+    margin-right: 0;
+}
+
+.advertacing-discount{
+    position: absolute;
+    top: 24px;
+    right: 24px; 
+}
+
+.adverticing-discount-text {
+    position: absolute;
+    top: 35px;
+    right: 32px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.adverticing-star {
+    position: absolute;
+    top: -1px;
+    right: 1px;
+}
+
+.advertacing-box-text {
+    padding: 16px 0 30px 16px;
+    height: 145px;
+    width: 294px;
+    background-color: rgba(244, 245, 247, 1);
+    color: rgba(58, 58, 58, 1);
+}
+
+.price::after {
+    content: "Rp 14.000.000";
+    display: inline-block;
+    color: rgba(176, 176, 176, 1);
+    padding-left: 16px;
+    text-decoration: line-through;
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(137, 137, 137, 1);
+    margin: 8px 0 8px;
+}
+
+.link-heading {
+    font-size: 24px;
+    line-height: 28px;  
+    text-decoration: none;  
+    color:rgba(58, 58, 58, 1);
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+
+.advertacing-box-img {
+    width: 294px;
+    height: 301px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img {
+    min-width: 100%;
+    min-height: 100%;
+    flex-shrink: 0;
+}
+
+.footer {
+    margin-top: 97px;
+}
+
+.footer-links {
+    width: 1025px;
+    margin: 21px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-link {
+    margin-top: 21px;
+}
+
+.link {
+    text-decoration: none;
+    margin-right: 25px; 
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21,6px;
+    color: rgba(58, 58, 58, 1);
+}

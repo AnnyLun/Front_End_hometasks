@@ -1,0 +1,94 @@
+.heading {
+    text-align: center;
+    margin-top: 38px auto;
+    font-family: 'roboto';
+    font-size: 36px;
+    line-height: 42px;
+}
+
+#container {
+    width: 467px;
+    margin: 25px auto;
+    box-sizing: border-box;
+}
+
+.form-elements {
+    line-height: 16px;
+    font-size: 14px;
+    font-family: 'roboto';
+    font-weight: 400;
+    background: rgba(202, 109, 79, 0.3); 
+    border-radius: 15px;
+    padding: 33px 0 7px 33px;
+}
+
+.block {
+    display:block
+}
+
+.block-inline {
+    display: inline-block
+}
+
+.required {
+    color: #ed3434;
+}
+
+.checkbox-bottom {
+    display: block;
+}
+
+.radio-btn {
+    width: 17px;
+    height: 17px;
+}
+
+.radio-btn-squer {
+    width: 14px;
+    height: 14px;
+}
+
+.radio-btn-text {
+    text-decoration: none;
+}
+
+.input-place {
+    display: block;
+    width: 400px;
+    height: 34px;
+    border-radius: 10px;
+    margin: 10px 0 25px;
+    border: none;
+}
+
+.form-element-checkbox {
+    margin-top: -5px;
+}
+
+.textarea {
+    resize: none;
+    width: 400px;
+    height: 98px;
+    border-radius: 10px;
+    margin: 10px 0 15px;
+    border: none;
+} 
+.bottom-style {
+    width: 183px;
+    height: 37px;
+    border-radius: 10px; 
+    border: none;
+}
+
+.bottom-res {
+    background-color: #C4C4C4;
+    margin-right: 30px;
+    border: none;
+}
+
+.bottom-sub {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+}
+

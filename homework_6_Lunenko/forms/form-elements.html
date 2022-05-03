@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>The form</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1 class="heading">Fill out of the form</h1>
+        </header>
+        <main id="container">
+            <form action="#" class="form-elements">
+                <label for="name">First name:<span class="required">*</span> </label>
+                <input class="input-place" type="text" id="name" required/>
+
+                <label for="email">Your email:<span class="required">*</span></label>
+                <input class="input-place" type="email" id="email" required/>
+                
+                <label for="tel">Your phone number</label>
+                <input class="input-place" type="tel" id="tel" />
+                                
+                <label for="country">Select your country</label>
+                    <select class="input-place" name="#" id="#">
+                        <option selected disabled></option>
+                        <option value="Ukraine">Ukraine</option>
+                        <option value="UK">UK</option>
+                        <option value="Poland">Poland</option>
+                    </select>
+                     
+                <div class="form-element-checkbox">        
+                <label for="question">I want to attend event:<span class="required">*</span></label>
+                    <div class="input-place">
+                        <input type="radio" class="radio-btn" id="Online" name="radio" checked required/>
+                        <label for="Online">Online</label>
+                        <div class="checkbox-bottom">
+                            <input type="radio" class="radio-btn" id="Offline" name="radio" required/>
+                            <label for="Offline">Offline</label>
+                        </div>
+                    </div>
+                </div> 
+               
+                <label for="textarea">Comments:</label>
+                <textarea class="textarea"></textarea>
+
+                <div>
+                    <input type="checkbox" class="radio-btn-squer" id="Policy" name="checkbox" required/>
+                    <label for="Policy">I agree with <a href="" class="radio-btn-text">Privacy Policy</a><span class="required">*</span></label>
+                </div>
+
+                <div class="input-place">
+                    <input type="reset" value="Сбросить" class="bottom-style bottom-res"/>
+                    <input type="submit" value="Отправить" class="bottom-style bottom-sub"/>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
+
