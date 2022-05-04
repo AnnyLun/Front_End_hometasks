@@ -447,8 +447,7 @@
     background-image: linear-gradient(180deg, #29abc7 0%, #5fcddd 15%, #71d9e5 50%, #81e3ed 100%);
 }
 
-.slick-dots li button:before
-{
+.slick-dots li button:before{
     font-family: 'slick';
     font-size: 50px;
     line-height: 50px;
