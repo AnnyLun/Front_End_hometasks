@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5fcff;
+}
+
+#container {
+    height: 100vh;
+    position: relative;
+    z-index: 5;
+    background-image: url('img/cloud.png'), url('img/grass.png');
+    background-position: -150px 50px, bottom;
+    background-repeat: repeat-x;
+    background-size: auto 200px, auto 120px;
+}
+
+.sun-box {
+    height: 200px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.img-wrapper {
+    display: inline-block;
+}
+
+.palm-box {
+    height: 800px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.deer-box {
+    height: 500px;
+    left: 50%;
+    margin-left: -250px;
+    bottom: 0; 
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.rabbit-box {
+    height: 400px;
+    bottom: 20px;
+    right: 400px;
+    position: absolute;
+    z-index: 3;
+}
+
+.bush-box {
+    height: 600px;
+    width: auto;
+    bottom: 0;
+    right: 200px;
+    position: absolute;
+    z-index: 2;
+}
+
+.orange-rabbit-box {
+    height: 300px;
+    bottom: 20px;
+    left: 300px;
+    position: absolute;
+    z-index: 3;
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
