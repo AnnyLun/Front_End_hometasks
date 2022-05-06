@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .heading {
     text-align: center;
     margin-top: 38px auto;
@@ -19,7 +24,7 @@
     font-weight: 400;
     background: rgba(202, 109, 79, 0.3); 
     border-radius: 15px;
-    padding: 33px 0 7px 33px;
+    padding: 33px 33px 26px 33px;
 }
 
 .block {
@@ -57,8 +62,17 @@
     width: 400px;
     height: 34px;
     border-radius: 10px;
-    margin: 10px 0 25px;
+    margin: 10px 0 25px 0;
     border: none;
+    padding-left: 10px;
+}
+.input-place-button {
+    display: block;
+    width: 400px;
+    height: 34px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
 }
 
 .form-element-checkbox {
@@ -72,6 +86,7 @@
     border-radius: 10px;
     margin: 10px 0 15px;
     border: none;
+    padding-left: 10px;
 } 
 .bottom-style {
     width: 183px;
