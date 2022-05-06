@@ -224,12 +224,11 @@
     margin-right: 25px; 
     font-weight: 600;
     font-size: 18px;
-    line-height: 21,6px;
     color: rgba(58, 58, 58, 1);
 }
 
 .link-copyright {
-    line-height: 21,6px;
     color: rgba(58, 58, 58, 1);
     font-weight: 600;
+    line-height: 21.6px;
 }
