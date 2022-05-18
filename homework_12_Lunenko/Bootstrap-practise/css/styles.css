@@ -7,13 +7,35 @@
 	position: relative;
 }
 
-.accordion {
-	width: 300px;
+.accordion-button {
+	width: 315px;
 	
 }
 
 .accordion-body {
     padding: 0;
 	overflow: hidden;
+	width: 315px;
 }
 
+.img {
+	width: 315px;
+	height: 225px;
+	transition: 1s; 
+	transform: none;
+}
+
+.img:hover {
+	transform: scale(1.2);
+}
+
+.carousel-item {
+	width: 700px;
+	margin-right: 0;
+}
+
+.nav {
+	text-decoration: none;
+	padding: 5px;
+	color: #fff;
+}
