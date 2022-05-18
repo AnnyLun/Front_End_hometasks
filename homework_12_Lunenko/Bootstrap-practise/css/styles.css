@@ -39,3 +39,10 @@
 	padding: 5px;
 	color: #fff;
 }
+
+@media  screen and (max-width: 414px;) {
+	.portfolio {
+		display: block;
+	}
+	
+}
