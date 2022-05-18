@@ -133,7 +133,7 @@ ul {
 	}
 
 	p {
-		display: inline;
+	display: inline;
 	}
 
 	.textarea-box {
@@ -306,8 +306,6 @@ ul {
 	.menu-open .burger-icon:before,
 	.menu-open .burger-icon:after {
 		background: #fff;
-
-		
 	}
 
 	.menu-open .burger-icon:before {
@@ -319,7 +317,6 @@ ul {
 		position: absolute;
 		top: 15px;
 		right: -56px;
-		/* right: 20px; */
 	}
 
 	.menu-open .burger-icon:after {
@@ -327,7 +324,6 @@ ul {
 		position: absolute;
 		top: 15px;
 		right: -56px;
-		/* right: 20px; */
 	}
 
 	.menu-open+main {
@@ -474,7 +470,6 @@ ul {
 	#container {
 		max-width: 414px;
 		margin: 0 auto;
-		/* height: 100%; */
 	}
 
 	.header{
