@@ -5,6 +5,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 	</head>
 	<body>
@@ -66,7 +67,7 @@
 			</div>
 			<div class="container py-5 border-bottom border-success ">
 				<h2 class="text-center mb-4">Portfolio</h2>
-				<div class="d-flex">
+				<div class="accordion-menu">
 					<div class="accordion pe-3" id="accordionExample">
 						<div class="accordion-item">
 						  <h2 class="accordion-header" id="headingOne">
@@ -93,8 +94,8 @@
 						</div>
 					</div>
 					</div>
-					<div class="portfolio row">
-						<div class="d-flex flex-wrap align-items-center">
+					<div class="row">
+						<div class="portfolio d-flex flex-wrap align-items-center">
 							<div class="col-md-4"><img src="img/portfolio/portfolio-1.png"  alt="Avatar" class="img"></div>
 							<div class="col-md-4"><img src="img/portfolio/portfolio-2.png"  alt="Avatar" class="img"></div>
 							<div class="col-md-4"><img src="img/portfolio/portfolio-3.png"  alt="Avatar" class="img"></div>
@@ -106,39 +107,39 @@
 			</div>
 			<div class="container py-5 border-bottom border-success">
 				<h2 class="text-center">Blog</h2>
-				<div id="carouselExampleControls" class="carousel slide width=700px" data-bs-ride="carousel">
-					<div class="carousel-inner d-flex justify-content-center width=700px">
-						<div class="carousel-item active width=700px">
-						  <div class="d-block width=700px">
-							  <div class="border rounded border-3 border-secondary">
-								  <span><img src="img/blog/blog-news-1.jpeg" alt="" class="rounded" width=100%></span>
-								  <h3 class="p=3">Post Title</h3>
-								  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-								  <nav class="bg-secondary"><a href="#" class="nav">Read more</a></nav>
-							  </div>
+				<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="d-block">
+								<div class="border rounded border-3 border-secondary">
+									<span><img src="img/blog/design-1.jpg" alt="Design" class="rounded" height=100% width=100%></span>
+									<h3 class="p=3">Post Title</h3>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+									<nav class="bg-secondary"><a href="#" class="nav">Read more</a></nav>
+								</div>
+							</div>
 						  </div>
-						</div>
-						<div class="carousel-item border width=700px">
-						  <div class="d-block width=700px">
-							  <div class="border rounded border-3 border-secondary">
-								  <span><img src="img/blog/blog-news-2.png" alt="" class="rounded" width=100%></span>
-								  <h3 class="p=3">Post Title</h3>
-								  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-								  <nav class="bg-secondary"><a href="#" class="nav">Read more</a></nav>
-							  </div>
+						  <div class="carousel-item border">
+							<div class="d-block">
+								<div class="border rounded border-3 border-secondary">
+									<span><img src="img/blog/design-2.jpg" alt="Design" class="rounded" width=100%></span>
+									<h3 class="p=3">Post Title</h3>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+									<nav class="bg-secondary"><a href="#" class="nav">Read more</a></nav>
+								</div>
+							</div>
 						  </div>
-						</div>
-						<div class="carousel-item border width=700px">
-						  <div class="d-block width=700px">
-							  <div class="border rounded border-3 border-secondary">
-								  <span><img src="img/blog/blog-news-3.png" alt="" class="rounded" width=100%></span>
-								  <h3 class="p=3">Post Title</h3>
-								  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-								  <nav class="bg-secondary"><a href="#" class="nav">Read more</a></nav>
-							  </div>
+						  <div class="carousel-item border">
+							<div class="d-block">
+								<div class="border rounded border-3 border-secondary">
+									<span><img src="img/blog/design-3.jpg" alt="Design" class="rounded" width=100%></span>
+									<h3 class="p=3">Post Title</h3>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+									<nav class="bg-secondary"><a href="#" class="nav">Read more</a></nav>
+								</div>
+							</div>
 						  </div>
-						</div>
-					  </div>
+					</div>
 					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
 					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 					  <span class="visually-hidden">Previous</span>
@@ -148,10 +149,31 @@
 					  <span class="visually-hidden">Next</span>
 					</button>
 				  </div>
+			<div class="container">
+				<h2 class="text-center">Contact Me</h2>
+				<div class="input-group mb-3">
+					<span class="input-group-text" id="basic-addon1">Your Name</span>
+					<input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+				</div>
+				<div class="input-group mb-3">
+					<input type="text" class="form-control" placeholder="YourEmail" aria-label="Recipient's username" aria-describedby="basic-addon2">
+					<span class="input-group-text" id="basic-addon2">@email.com</span>
+			  	</div>
+			  	<div class="input-group mb-3">
+					<textarea class="form-control" placeholder="Your message"></textarea>
+			  	</div>
+			  	<div class="mb-5"><button class="input-btn btn btn-success d-block mx-auto" type="submit">Send</button></div>
+			</div>
 		</main>
-
+		<footer>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container">
+				<a href="#" class="text-decoration-none text-white-50">Copyrigths</a>
+			</div>
+			</nav>
+		</footer>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script> 
 		<script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
 	</body>
 </html>

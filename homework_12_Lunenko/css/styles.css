@@ -7,20 +7,22 @@
 	position: relative;
 }
 
+.accordion-menu {
+	display: flex;
+}
 .accordion-button {
 	width: 315px;
-	
 }
 
 .accordion-body {
     padding: 0;
 	overflow: hidden;
-	width: 315px;
+	max-width: 315px;
 }
 
 .img {
-	width: 315px;
-	height: 225px;
+	max-width: 315px;
+	max-height: 225px;
 	transition: 1s; 
 	transform: none;
 }
@@ -29,20 +31,36 @@
 	transform: scale(1.2);
 }
 
-.carousel-item {
-	width: 700px;
-	margin-right: 0;
-}
-
 .nav {
 	text-decoration: none;
 	padding: 5px;
 	color: #fff;
 }
 
-@media  screen and (max-width: 414px;) {
-	.portfolio {
+.input-group {
+	margin: 0 auto;
+	max-width:500px;
+} 
+
+.input-btn {
+	max-width: 500px;
+}
+
+
+@media  screen and (max-width: 414px) {
+	.accordion-menu {
 		display: block;
 	}
+
+	.accordion-button{
+		width: 100%;
+	}
+
+	.accordion-body {
+		margin: 0 auto;
+	}
 	
+	.col-md-4 {
+		margin: 0 auto;
+	}
 }
