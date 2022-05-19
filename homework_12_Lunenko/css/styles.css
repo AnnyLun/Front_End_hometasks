@@ -63,4 +63,17 @@
 	.col-md-4 {
 		margin: 0 auto;
 	}
+
+	.avatar-img {
+		margin: 0 auto;
+		width: auto;
+	}
+	
+	.avatar-text {
+		text-align: center;
+	}
+
+	.text-success {
+		margin: -5px;
+	}
 }
