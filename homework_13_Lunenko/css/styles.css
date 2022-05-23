@@ -31,23 +31,23 @@ body {
 }
 
 .circle-1 {
-    animation: pulsare 5s linear 3s infinite reverse;
+    animation: pulsare 5s linear 0.5s infinite reverse;
 }
 
 .circle-2 {
-    animation: pulsare 5s linear 3.25s infinite reverse;
+    animation: pulsare 5s linear 0.75s infinite reverse;
 }
 
 .circle-3 {
-    animation: pulsare 5s linear 3.50s infinite reverse;
+    animation: pulsare 5s linear 1s infinite reverse;
 }
 
 .circle-4 {
-    animation: pulsare 5s linear 3.75s infinite reverse;
+    animation: pulsare 5s linear 1.25s infinite reverse;
 }
 
 .circle-5 {
-    animation: pulsare 5s linear 4s infinite reverse;
+    animation: pulsare 5s linear 1.50s infinite reverse;
 }
 
 @keyframes pulsare {
