@@ -24,7 +24,6 @@ body {
 .circle {
     width: 600px;
     height: 100px;
-    background-color:aqua;
     display: flex;
     border-radius: 100%;
     margin-right: 100px;
