@@ -24,82 +24,57 @@ body {
 .circle {
     width: 600px;
     height: 100px;
-    color:aqua;
     display: flex;
     border-radius: 100%;
     margin-right: 100px;
 }
 
 .circle-1 {
-    animation: pulsare 5s linear 0.5s infinite reverse;
+    animation: pulsare 4s ease-in-out 0.5s infinite reverse;
 }
 
 .circle-2 {
-    animation: pulsare 5s linear 0.75s infinite reverse;
+    animation: pulsare 4s ease-in-out 0.75s infinite reverse;
 }
 
 .circle-3 {
-    animation: pulsare 5s linear 1s infinite reverse;
+    animation: pulsare 4s ease-in-out 1s infinite reverse;
 }
 
 .circle-4 {
-    animation: pulsare 5s linear 1.25s infinite reverse;
+    animation: pulsare 4s ease-in-out 1.25s infinite reverse;
 }
 
 .circle-5 {
-    animation: pulsare 5s linear 1.50s infinite reverse;
+    animation: pulsare 4s ease-in-out 1.50s infinite reverse;
 }
 
 @keyframes pulsare {
-    10% {
-        transform: scale(0.10);
+    0% {
+        transform: scale(0.30);
         background-color: rgb(113, 164, 240);
     } 
 
-    20% {
-        transform: scale(0.40);
-        background-color: rgb(126, 150, 205);
-    }
-
-    30% {
-        transform: scale(0.70);
-        background-color: rgb(166, 24, 176);
-    }
-
-    40% {
-        transform: scale(1);
-        background-color: rgb(195, 42, 206);
-    }
-    
     50% {
         transform: scale(0.70);
-        background-color: rgb(229, 72, 240);
-    }
-
-    60% {
-        transform: scale(0.40);
-        background-color: rgb(136, 143, 137);
-    }
-
-    70% {
-        transform: scale(0.10);
-        background-color: rgb(49, 229, 199);
-    }
-
-    80% {
-        transform: scale(0.40);
-        background-color: rgb(89, 255, 119);
-    }
-
-    90% {
-        transform: scale(0.70);
-        background-color: rgb(37, 213, 69);
+        background-color: rgb(195, 42, 206);
     }
 
     100% {
         transform: scale(1);
-        background-color: rgb(7, 183, 39);
+        background-color: rgb(195, 42, 206);
     }
+
+    50% {
+        transform: scale(0.30);
+        background-color: rgb(49, 229, 199);
+    }
+    
+    0% {
+        transform: scale(0.70);
+        background-color: rgb(30, 177, 57);
+    }
+   
 } 
  
 
