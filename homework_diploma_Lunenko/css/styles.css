@@ -31,7 +31,7 @@ body {
 }
 
 #container {
-    min-width: 414px;
+    min-width: 414hv;
     font-family: "Montserrat";
 }
 
@@ -575,6 +575,10 @@ section p {
 
 .my-dots li[class="slick-active"] button {
     background: #24A3FF;
+}
+
+.slick-track {
+    width: 354px;!important
 }
 
 .slick-dotted.slick-slider {
