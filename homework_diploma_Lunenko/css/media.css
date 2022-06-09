@@ -23,9 +23,9 @@
         display: flex;
 }
 
-    .link {
+    /* .link {
     padding-right: 0;
-}
+} */
 
     .header-nav {
         display: none;
@@ -85,7 +85,7 @@
 }
 
     .header-nav-tablet li {
-        margin-right: 15px;
+        margin-right: 15px; 
         padding-right: 14px; 
         color: white;
         font-size: 20px;
@@ -94,6 +94,7 @@
     .header-nav-tablet li:nth-child(-n+2) {
         content: "";
         padding-right: 0;
+        margin-right: 0; 
 }
 
    .header-logo {

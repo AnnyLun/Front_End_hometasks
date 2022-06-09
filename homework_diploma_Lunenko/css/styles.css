@@ -111,7 +111,8 @@ body {
     line-height: 15px;
     color: var(--secondary-text-color);
     transition: all 0.5s ease-out;
-    padding-right: 14px;
+    padding: 5px;
+    /* padding-right: 14px; */
 }
 
 .link:hover {
@@ -139,7 +140,7 @@ a:hover {
 
 .header-nav li:last-child {
     padding-right: 0;
-}
+} 
 
 .link-nav {
     font-size: var(--font-size-text);
@@ -689,7 +690,13 @@ footer .numb {
     color: var(--fifth-text-color);
     padding: 10px;
     display: block;
+    transform: all 2s ease-out;
 }
+
+footer .numb:hover {
+    background: none;
+    color: #F0145A;
+} 
 
 .copyright {
     padding-top: var(--text-long-gap);
