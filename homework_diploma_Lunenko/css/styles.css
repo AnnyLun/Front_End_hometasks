@@ -728,7 +728,6 @@ a.publication-title:hover {
     -ms-color: var(--fifth-text-color);
     color: var(--fifth-text-color);
     -ms-padding-top: var(--text-long-gap);
-    padding-top: var(--text-long-gap);
     border-top: 2px solid rgba(230, 230, 240, 1);
     width: 100%;
     text-align: center;
