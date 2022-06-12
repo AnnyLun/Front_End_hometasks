@@ -89,27 +89,27 @@ ul {
 	border-left: none;
 	border-right: none;
 	text-transform: uppercase;
+	font-size: 40px;
+	line-height: 48px;
 }
 
-.counter {
+.article-title {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 60px;
+	margin-top: 60px;
 }
 
-.counter-block {
-	padding: 50px;
+.article-block {
+	display: flex;
+	align-items: center;
+	padding: 0 50px;
 	background-color: #000;
 	color: #fff;
 	font-size: 18px;
 	line-height: 22px;
-	margin-bottom: 60px;
-	margin-top: 60px;
 	width: 500px;
 	height: 394px;
-}
-
-.counter-block:first-child {
-	padding-top: 94px;
 }
 
 .incremental-counter .num {
@@ -158,6 +158,10 @@ display: inline;
 	color: #FFF;
 	font-weight: 400;
 	text-transform: uppercase;
+}
+
+.textarea-button:hover {
+	cursor: pointer;
 }
 
 .textarea-button-mobile {
@@ -256,6 +260,7 @@ display: inline;
 		color: #fff;
 		font-size: 24px;
 		line-height: 29px;
+		text-decoration: none;
 	}
 
 	.menu-open .nav-list {
@@ -315,7 +320,7 @@ display: inline;
 	}
 
 	.menu-open+main {
-		padding-top: 106px;
+		padding-top: 122px;
 	}
 
 	.menu-open .content {
@@ -347,10 +352,6 @@ display: inline;
 		margin-bottom: 32px;
 	}
 
-	h1 {
-		visibility: hidden;
-	}
-
 	.title {
 		display: block;
 		font-size: 28px;
@@ -366,12 +367,12 @@ display: inline;
 		padding: 13px 0 13px;
 	}
 
-	.counter {
+	.article-title {
 		display: block;
 		
 	}
 
-	.counter-block {
+	.article-block {
 		padding: 48px;
 		background-color: #000;
 		color: #fff;
@@ -383,7 +384,7 @@ display: inline;
 		height: auto;
 	}
 
-	.counter-block:first-child {
+	.article-block:first-child {
 		padding-top: 48px;
 	}
 
@@ -553,10 +554,6 @@ display: inline;
 		padding: 42px 20px 102px;
 	}
 
-	.content-title {
-		margin-bottom: 32px;
-	}
-
 	.title {
 		font-size: 20px;
 		line-height: 24px;
@@ -570,14 +567,14 @@ display: inline;
 		margin-top: 0;
 	}
 
-	.counter-block {
+	.article-block {
 		padding: 20px;
 		font-size: 16px;
 		line-height: 18px;
 		margin-top: 24px;
 	}
 
-	.counter-block:first-child {
+	.article-block:first-child {
 		padding-top: 20px;
 	}
 
@@ -632,7 +629,7 @@ display: inline;
 	}
 
 	.menu-open+main {
-		padding-top: 206px;
+		padding-top: 207px;
 	}
 
 	.menu-open .nav {
