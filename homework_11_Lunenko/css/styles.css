@@ -47,6 +47,11 @@ ul {
 	line-height: 24px;
 }
 
+.nav-item-link {
+	text-decoration: none;
+	color: #000;
+}
+
 .header-logo {
 	position: none;
 	left: 0;
