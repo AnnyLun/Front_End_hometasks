@@ -75,8 +75,8 @@ body {
     -ms-background-size: 268px 600px, 285px 322px; 
     background-size: 268px 600px, 285px 322px; 
     background-repeat: no-repeat;
-    -ms-background-position: left -60px top 0, left 75px top 280px;
-    background-position: left -60px top 0, left 75px top 280px;
+    -ms-background-position: left -30px top 0, left 110px top 280px;
+    background-position: left -30px top 0, left 110px top 280px;
 }
 
 .container-body-tablet-hd {
@@ -575,7 +575,7 @@ section p {
 }
 
 .slick-track {
-    width: 354px;!important
+    width: 354px;
 }
 
 .slick-dotted.slick-slider {
@@ -733,6 +733,7 @@ a.publication-title:hover {
     width: 100%;
     text-align: center;
     transition: all 2s ease-out;
+    padding-top: 30px;
 }
 
 .footer-addres:hover {
